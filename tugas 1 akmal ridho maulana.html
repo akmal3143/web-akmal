@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Pendaftaran Siswa Baru</title>
+</head>
+<body>
+    <form>
+        <h1 align="center">From Pendaftaran Siswa Baru</h1>
+    <fieldset>
+    <legend><b>Identitas Siswa</b></legend>
+    NISN (jika ada) <br>
+    <input type="number" placeholder="NISN" size="25"/> <br><br>
+    Nama Lengkap <br>
+    <input type="text" placeholder="Nama Sesuai Akta"/> <br><br>
+    jenis Kelamin <br>
+    <select name="jk">
+        <option value="pilih">Pilih jenis Kelamin</option>
+        <option value="lk">Laki-Laki</option>
+        <option value="pr">Perempuan</option>
+    </select><br><br>
+    Tempat Lahir <br>
+    <input type="text" placeholder="Kota/Kabupaten"> <br><br>
+    Tanggal Lahir <br>
+    <input type="date">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><b>Alamat</b></legend>
+        Alamat Lengkap <br>
+        <textarea name="Alamat" cols="25" rows="5" placeholder="Jalan,RT/RW,Desa/Kelurahan,Kecamatan,KOta/Kabupaten"></textarea> <br><br>
+        Kode Pos <br>
+        <input type="number" placeholder="5 Digit">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><b>Kontak</b></legend>
+        Email <br>
+        <input type="email" placeholder="contoh@domain.com"> <br><br>
+        kontak <br>
+        <input type="number" placeholder="+62 812-0003-2137">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><b>Pendidikan Sebelumnya</b></legend>
+        Nama Sekolah Asal <br>
+        <input type="text" placeholder="Sekolah Dasar/Madrasah"><br><br>
+        Tahun Lulus <br>
+        <input type="month">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><b>Data Wali/Orang Tua</b></legend>
+        Nama wali/Orang Tua <br>
+        <input type="text" placeholder="Nama Asli Sesuai KTP"> <br><br>
+        Pekerjaan Wali <br>
+        <input type="text" placeholder="Contoh:Buruh Lepas/PNS"> <br><br>
+        Nomer Telpon Wali <br>
+        <input type="number" placeholder="+62 822-5643-1826">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><b>Lampiran</b></legend>
+        Foto 3X4 (Opsional) <br>
+        <input type="file"><br><br>
+        Scen Akta Kelahiran / Ijazah (Opsional) <br>
+        <input type="file">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><b>Lampiran</b></legend>
+        <input type="checkbox"/> Saya Menyatakan Bahwa Data Yang Di Berikan Bennar
+    </fieldset>
+     <p><input type="submit" value="KIrim"> <input type="reset" value="Hapus"></p>
+    </form>
+</body>
+</html>
